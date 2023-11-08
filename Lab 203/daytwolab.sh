@@ -1,7 +1,7 @@
 #1/bin/bash
 
-variables=$name!
+name=$1
 
-read $name
+variables=$name
 
 echo "You made it to class on time, $name."
