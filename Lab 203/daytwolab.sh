@@ -2,6 +2,6 @@
 
 variables=$name!
 
-read name
+read $name
 
 echo "You made it to class on time, $name."
