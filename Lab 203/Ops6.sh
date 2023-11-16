@@ -1,4 +1,4 @@
-#!/bit/bash
+#!/bin/bash
 
 echo "Enter a website."
 read website
