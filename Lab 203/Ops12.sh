@@ -3,7 +3,7 @@
 echo -n "How are you doing today?"
 read response
 
-echo -n "That is great.:
+echo -n "You are $response."
 
 case $response in
 
@@ -14,7 +14,7 @@ case $response in
     bad)
     echo -n "I am sorry to hear that."
     ;;
-
+    
     *)
     echo -n "I do not understand. Sorry."
 esac
