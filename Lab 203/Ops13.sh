@@ -1,6 +1,11 @@
 #!/bin/bash
 
-read -p "Enter a number 2 through 5: " number1
+echo "Enter a number." 
+read number
 
-if [ $number1 -gt 2 -a $number1 -lt 5];
-then echo "Valid Number. Your number is $number1."
+if (( number >= 2 && number <= 5 )); then
+    echo "Valid Number."
+    echo "Your number is $number."
+else 
+    echo "Not Valid."
+fi
