@@ -1,13 +1,13 @@
 # Write a multi-line comment with your name, favorite food, and dream job on 3 different lines.
-print("My name is Chris, my favorite food is chilli spaghetti, and my dream job is snowboard instructor.")
+print("My name is Chris, my favorite food is chilli spaghetti, and my dream job is a snowboarding instructor.")
 # assign 5 different data types to 5 different variables. At least one datatype must be a string.
-a = "Dog"
-b = int(15)
-c = float(1.432)
-d = "Cat"
-e = int(14)
+boolean=True
+int(12)
+float=98.7
+string="Where is the cat?"
+list=[1,2,3,4,5]
 # print the length of your string.
-print(len(a))
+print(len(list))
 
 
 # create a new variable called savvy, and assign it the string with this phrase "Learning Python is Awesome!"
@@ -20,13 +20,15 @@ print(new_savvy)
 # Test and print the savvy string to see it contains "Python"
 print(savvy)
 # Create and assign 3 more variables called name, age and length using the multi-variable naming method.
-name, age, lenght = "Chris", 34, 5'11"
+name, age, lenght = "Chris", 34, 6
 
 # Format a new string called 'miniBio' using variables in curly brackets to complete this phrase... "Hi my name is (name), I am (tall) and (so) old today."
-print(f"Hi my name is {name}, I am {lenght} feet tall, and {age} years old.")
+miniBio=(f"Hi my name is {name}, I am {lenght} feet tall, and {age} years old.")
+print(miniBio)
 # print 'miniBio'
 # cast and print the age variable to a float.
-print(float(age))
+float=age
+print(float)
 
 # Create a list of at least 5 elements of mixed data types
 # replace a part of it with something else
